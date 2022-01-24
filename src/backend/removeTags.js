@@ -1,3 +1,3 @@
 export function removeTags(row) {
-    return row.replace(/(<[^>]+)>/ig, "").trim()
+    return row.replace(/(<[^>]+)>/gi, "").trim()
 }

@@ -1,28 +1,28 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
-      <v-toolbar-title>Most Used Words</v-toolbar-title>
-    </v-app-bar>
+    <v-app>
+        <v-app-bar app color="primary" dark>
+            <v-toolbar-title>Most Used Words</v-toolbar-title>
+        </v-app-bar>
 
-    <v-main>
-      <Home />
-    </v-main>
-  </v-app>
+        <v-main>
+            <Home />
+        </v-main>
+    </v-app>
 </template>
 
 <script>
-import Home from "./components/Home.vue";
+import Home from "./components/Home.vue"
 
 export default {
-  name: "App",
+    name: "App",
 
-  components: {
-    Home,
-  },
-};
+    components: {
+        Home
+    }
+}
 </script>
 <style>
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 </style>

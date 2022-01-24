@@ -10,8 +10,7 @@ export function groupWords(words) {
                 return obj
             }, {})
 
-            const groupedWordsArray = Object
-                .keys(groupedWords)
+            const groupedWordsArray = Object.keys(groupedWords)
                 .map(key => ({ name: key, amount: groupedWords[key] }))
                 .sort((a, b) => b.amount - a.amount)
 
